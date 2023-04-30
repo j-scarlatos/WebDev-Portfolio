@@ -89,3 +89,14 @@
     grid-column: 10 / span 3;
     grid-row: 4 / 6;
 }
+
+/*Contact Me
+----------
+----------*/
+#contact-head {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    font-family: 'EB Garamond';
+    font-size: 4.7em;
+}
