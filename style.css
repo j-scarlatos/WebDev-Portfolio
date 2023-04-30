@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap');
+
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+    color: white;
+    background-color: #4e6a7c;
+}
+
+.site-nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+#site-nav {
+    display: inline;
+}
+
+#site-nav-link {
+    font-size: 1.1em;
+}
+
+
+/*Home
+----------
+----------*/
+#home-head {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    font-family: 'EB Garamond';
+    font-size: 4.7em;
+}
+
+.home-body {
+    display: grid;
+    align-items: center;
+    margin-top: 5%;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 80px 80px 20px 80px 80px;
+}
+
+#music-code {
+    grid-column: 2 / span 4;
+    grid-row: 1 / span 2;
+    line-height: 1.7;
+}
+
+#roles {
+    grid-column: 2 / span 4;
+    grid-row: 5;
+    line-height: 1.7;
+}
+
+#find-me {
+    display: flex;
+    align-self: flex-end;
+    grid-column: 7 / span 3;
+    grid-row: 1 / span 2;
+    font-size: 1.3em;
+}
+
+.find-buttons {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid black;
+    text-shadow: 2px 2px 2px black;
+    height: 100%;
+    width: 65%;
+}
+
+.find-buttons:hover {
+    background-color: #70b2db;
+    border: 2px solid white;
+}
+
+#linked {
+    grid-column: 10 / span 3;
+    grid-row: 1 / span 2;
+}
+
+#fb {
+    grid-column: 7 / span 3;
+    grid-row: 4 / 6;
+    margin: auto;
+    align-self: self-end;
+}
+
+#insta {
+    grid-column: 10 / span 3;
+    grid-row: 4 / 6;
+}
