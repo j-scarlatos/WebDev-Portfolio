@@ -138,3 +138,21 @@
     font-family: 'EB Garamond';
     font-size: 4.2em;
 }
+
+
+/*About Me
+----------
+----------*/
+#about-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+
+#about-body h4 {
+    width: 60%;
+    padding: 5%;
+    border-left: 5px solid white;
+    border-bottom: 5px solid white;
+}
