@@ -1,0 +1,122 @@
+/*Projects
+----------
+----------
+.gallery-descrip {
+    grid-row: 1;
+    grid-column: 1;
+    background-color: transparent;
+}
+
+#sovereign-gallery {
+    display: grid;
+    grid-template-rows: .25fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5%;
+    width: 75%;
+    height: 100vh;
+    padding: 2%;
+    margin: auto;
+    background-color: rgba(0, 0, 0, .25);
+}
+
+#sovereign-gallery img {
+    width: 100%;
+    height: 100%;
+}
+
+#sovereign-html {
+    grid-row: 2;
+    grid-column: 1;
+}
+
+#sovereign-css {
+    grid-row: 1 / span 3;
+    grid-column: 2;
+}
+
+#sovereign-product {
+    grid-row: 3;
+    grid-column: 1;
+}
+
+#news-button {
+    display: grid;
+    grid-template-rows: .25fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr .65fr;
+    column-gap: 5%;
+    width: 75%;
+    height: 110vh;
+    margin: 5% auto;
+    padding: 2%;
+    background-color: rgba(0, 0, 0, .25);
+}
+
+#news-button img {
+    width: 100%;
+    height: 100%;
+}
+
+#button-html {
+    grid-row: 2 / span 2;
+    grid-column: 1;
+}
+
+#button-css {
+    grid-row: 1 / span 4;
+    grid-column: 2;
+}
+
+#button-product {
+    grid-row: 4;
+    grid-column: 1;
+}*/
+
+.preview {
+    display: grid;
+    grid-template-rows: 15vh 15vh;
+    grid-template-columns: 1fr 1fr;
+    width: 70%;
+    margin: auto;
+}
+
+.gallery-descrip {
+    display: flex;
+    align-items: center;
+    grid-row: 1
+    grid-column: 1;
+}
+
+.expander {
+    grid-row: 2;
+    grid-column: 1;
+}
+
+.expander button {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, .45);
+}
+
+.product-img {
+    display: flex;
+    justify-content: flex-end;
+    grid-row: 1 / span 2;
+    grid-column: 2;
+    width: 100%;
+    object-fit: contain;
+}
+
+.expander-img {
+    width: 70%;
+    margin: 2% auto;
+}
+
+.hidden-html {
+    object-fit: scale-down;
+    max-height: 50vh;
+}
+
+.hidden-css {
+    height: 80vh;
+}
