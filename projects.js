@@ -1,1 +1,0 @@
-const expanders = document.getElementsByClassName("preview");
