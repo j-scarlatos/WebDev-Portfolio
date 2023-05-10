@@ -4,7 +4,7 @@
         <title>Projects</title>
         <link href="./css/style.css" rel="stylesheet">
         <link href="./css/projects.css" rel="stylesheet">
-        <script src="projects.js" type="text/javascript" defer></script>
+        <script src="./js/projects.js" type="text/javascript" defer></script>
     </head>
 
     <body>
@@ -19,34 +19,34 @@
             </nav>
         </header>
 
-        <section id="sovereign-gallery">
+        <section class="example">
             <div class="preview">
                 <h2 class="gallery-descrip">A Flexbox Grid with an Overlay</h2>
                 <div class="expander">
-                    <button class="html-button" id="sovereign-html-button">html</button>
-                    <button class="css-button" id="sovereign-css-button">css</button>
+                    <button type="button" class="html-button">html</button>
+                    <button type="button" class="css-button">css</button>
                 </div>
                 <div class="product-img"><img src="./photos/sovereignty_gallery_product.png"></div>
             </div>
 
             <div class="expander-img">
-                <img src="./photos/sovereignty_gallery_html.png" class="hidden-html">
+                <img src="./photos/sovereignty_gallery_html.png" class="hidden-html" id="sov-hidden-html">
                 <img src="./photos/sovereignty_gallery_css.png" class="hidden-css">
             </div>
         </section>
         
-        <section id="news-button">
+        <section class="example">
             <div class="preview">
                 <h2 class="gallery-descrip">An Informational Button</h2>
                 <div class="expander">
-                    <button class="html-button" id="news-html-button">html</button>
-                    <button class="css-button" id="news-css-button">css</button>
+                    <button type="button" class="html-button">html</button>
+                    <button type="button" class="css-button">css</button>
                 </div>
-                <img src="./photos/table_button_product.png" class="product-img">
+                <div class="product-img"><img src="./photos/table_button_product.png"></div>
             </div>
 
             <div class="expander-img">
-                <img src="./photos/table_button_html.png" class="hidden-html">
+                <img src="./photos/table_button_html.png" class="hidden-html" id="news-hidden-html">
                 <img src="./photos/table_button_css.png" class="hidden-css">
             </div>
         </section>

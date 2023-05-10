@@ -1,3 +1,7 @@
+.example {
+    margin-bottom: 5%;
+}
+
 .preview {
     display: grid;
     grid-template-rows: 15vh 15vh;
@@ -39,11 +43,18 @@
     margin: 2% auto;
 }
 
-.hidden-html {
-    object-fit: scale-down;
-    max-height: 50vh;
+.hidden-html[aria-hidden="true"] {
+    display: none;
 }
 
-.hidden-css {
+.hidden-html[aria-hidden="false"] {
+    width: 50%;
+}
+
+.hidden-css[aria-hidden="true"] {
+    display: none;
+}
+
+.hidden-css[aria-hidden="false"] {
     height: 80vh;
 }
